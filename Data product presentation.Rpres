@@ -1,0 +1,39 @@
+Iris species prediction application
+========================================================
+author: Andrey Alferov
+date: 21 June 2015
+
+Application description
+========================================================
+
+The aim of the application is to predict iris species based on provided values of the following features:
+
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
+
+Application uses standard Iris dataset for performing a prediction.
+
+Iris dataset
+========================================================
+
+Below is an Iris dataset visualization
+```{r}
+str(iris)
+```
+
+User guide
+========================================================
+
+User must input all required parameters: Sepal length, Sepal width, Petal length, Petal width and press the Predict button.
+
+Application preforms a prediction of iris species value based on input values of species features.
+
+The result of prediction is displayed on the right side in text box labeled 'Which result in prediction of'.
+
+Prediction algorithm
+========================================================
+
+The application uses Random Forests prediction algorithm to train a model and make a prediction. 
+Random Forests is one of the most efficient algorithms to be used for classification tasks.
