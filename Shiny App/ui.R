@@ -1,7 +1,5 @@
 library(shiny)
 
-setwd("D:/Coursera/Data Science/Data Products/Shiny App")
-
 shinyUI(pageWithSidebar(
   headerPanel("Iris species prediction"),
   sidebarPanel(
@@ -24,5 +22,4 @@ shinyUI(pageWithSidebar(
   )
 ))
 
-#data(iris)
 
